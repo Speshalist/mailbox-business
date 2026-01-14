@@ -13,7 +13,10 @@ const navItems = [
 // Helper function to add base path
 const withBase = (path: string) => {
   const baseUrl = import.meta.env.BASE_URL || '/';
-  return baseUrl + path.replace(/^\//, '');
+  // Ensure baseUrl ends with / and path starts with /
+  const normalizedBase = baseUrl.endsWith('/') ? baseUrl : baseUrl + '/';
+  const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+  return normalizedBase + normalizedPath;
 };
 ---
 
