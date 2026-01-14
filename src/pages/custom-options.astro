@@ -1,0 +1,360 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+  title="Custom Mailbox Options | Southern Maryland Mailbox Services"
+  description="Explore custom mailbox styles, decorative posts, house numbers, lighting, and more to create the perfect curb appeal for your home."
+>
+  <Navigation />
+  
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Custom Mailbox Options</h1>
+      <p class="text-xl text-blue-100 max-w-2xl">
+        Create the perfect mailbox solution tailored to your home's style
+      </p>
+    </div>
+  </section>
+
+  <!-- Mailbox Styles -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Mailbox Styles</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          From basic to premium, we offer mailboxes to match every home and budget
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Basic Tier -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">Basic Tier</h3>
+          <p class="text-blue-600 font-bold text-xl mb-4">$40 - $80</p>
+          <p class="text-gray-600 mb-4">
+            Reliable, USPS-approved mailboxes in standard styles. Perfect for straightforward mail delivery needs.
+          </p>
+          <ul class="space-y-2 text-gray-600">
+            <li>• Standard steel construction</li>
+            <li>• Black or white finish</li>
+            <li>• Weather-resistant coating</li>
+            <li>• Standard capacity</li>
+            <li>• Flag included</li>
+            <li>• USPS compliant</li>
+          </ul>
+        </div>
+
+        <!-- Mid-Range Tier -->
+        <div class="bg-blue-50 rounded-lg p-6 border-2 border-blue-600">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">Mid-Range Tier</h3>
+          <p class="text-blue-600 font-bold text-xl mb-4">$90 - $180</p>
+          <p class="text-gray-600 mb-4">
+            Decorative mailboxes with enhanced durability and aesthetic appeal. Great for most homeowners.
+          </p>
+          <ul class="space-y-2 text-gray-600">
+            <li>• Decorative designs available</li>
+            <li>• Multiple color options</li>
+            <li>• Larger capacity for packages</li>
+            <li>• Enhanced weather protection</li>
+            <li>• Traditional or contemporary styles</li>
+            <li>• Improved hardware quality</li>
+          </ul>
+        </div>
+
+        <!-- Premium Tier -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">Premium Tier</h3>
+          <p class="text-blue-600 font-bold text-xl mb-4">$200 - $400+</p>
+          <p class="text-gray-600 mb-4">
+            High-end mailboxes featuring architectural designs and premium materials for maximum curb appeal.
+          </p>
+          <ul class="space-y-2 text-gray-600">
+            <li>• Premium materials (copper, stainless steel)</li>
+            <li>• Architectural designs</li>
+            <li>• Locking mechanisms available</li>
+            <li>• Extra-large capacity</li>
+            <li>• Custom finishes</li>
+            <li>• Distinctive styling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Post Options -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Post Options</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          The foundation of your mailbox installation
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Standard Treated Post</h3>
+          <p class="text-blue-600 font-semibold mb-4">$30 - $50</p>
+          <p class="text-gray-600 mb-4">
+            Pressure-treated lumber (4x4 or larger) designed to resist rot and insect damage. The reliable choice for most installations.
+          </p>
+          <ul class="space-y-2 text-gray-600 text-sm">
+            <li>✓ Pressure-treated for longevity</li>
+            <li>✓ 8-10 feet length</li>
+            <li>✓ Natural wood appearance</li>
+            <li>✓ Can be painted or stained</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Decorative Post</h3>
+          <p class="text-blue-600 font-semibold mb-4">$75 - $150</p>
+          <p class="text-gray-600 mb-4">
+            Vinyl-wrapped, composite, or custom-finished posts that add character and require minimal maintenance.
+          </p>
+          <ul class="space-y-2 text-gray-600 text-sm">
+            <li>✓ Low maintenance</li>
+            <li>✓ Various styles and colors</li>
+            <li>✓ Enhanced curb appeal</li>
+            <li>✓ Weather-resistant finishes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- House Numbers -->
+  <section id="house-numbers" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-6">House Numbers</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            Complement your mailbox upgrade with modern house numbers that improve visibility and add contemporary style to your home's entrance. Professional installation ensures proper placement and secure mounting.
+          </p>
+          
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Available Styles:</h3>
+          <ul class="space-y-3 text-gray-600 mb-6">
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span><strong>Modern Floating Numbers:</strong> Sleek, minimalist designs that mount directly to your home's facade</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span><strong>Address Plaques:</strong> Traditional or contemporary plaques with custom text</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span><strong>Illuminated Numbers:</strong> LED or backlit options for enhanced nighttime visibility</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span><strong>Post-Mounted Numbers:</strong> Numbers that attach to your mailbox post</span>
+            </li>
+          </ul>
+          
+          <div class="bg-blue-50 border-l-4 border-blue-600 p-4 mb-6">
+            <p class="text-blue-900">
+              <strong>Installation: $75 - $125</strong> depending on style and complexity
+            </p>
+          </div>
+        </div>
+        
+        <div class="bg-gray-100 rounded-lg p-8">
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Finish Options</h3>
+          <div class="space-y-3">
+            <div class="flex items-center justify-between p-3 bg-white rounded">
+              <span class="font-medium">Brushed Aluminum</span>
+              <span class="text-gray-600">Modern, durable</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white rounded">
+              <span class="font-medium">Matte Black</span>
+              <span class="text-gray-600">Contemporary</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white rounded">
+              <span class="font-medium">Brass</span>
+              <span class="text-gray-600">Traditional elegance</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white rounded">
+              <span class="font-medium">Bronze</span>
+              <span class="text-gray-600">Classic appeal</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white rounded">
+              <span class="font-medium">White</span>
+              <span class="text-gray-600">Clean, versatile</span>
+            </div>
+          </div>
+          
+          <div class="mt-6">
+            <h4 class="font-bold text-gray-900 mb-2">Size Range</h4>
+            <p class="text-gray-600">Available in sizes from 4" to 15" to suit any home and visibility needs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lighting Options -->
+  <section id="lighting" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Post Lighting</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Enhance visibility and curb appeal with mailbox post lighting
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Solar Post Lights</h3>
+          <p class="text-blue-600 font-semibold mb-4">Installation: $100 - $150</p>
+          <p class="text-gray-600 mb-4">
+            Eco-friendly solar-powered lights that automatically illuminate at dusk. No wiring required, making installation simple and cost-effective.
+          </p>
+          <ul class="space-y-2 text-gray-600 text-sm">
+            <li>✓ No electricity costs</li>
+            <li>✓ Automatic on/off</li>
+            <li>✓ Easy installation</li>
+            <li>✓ Weather-resistant</li>
+            <li>✓ Various styles available</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-8 rounded-lg shadow-md">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Low-Voltage Lighting</h3>
+          <p class="text-blue-600 font-semibold mb-4">Installation: $150 - $200</p>
+          <p class="text-gray-600 mb-4">
+            Hardwired low-voltage lighting provides consistent, bright illumination. Ideal for areas with existing landscape lighting systems.
+          </p>
+          <ul class="space-y-2 text-gray-600 text-sm">
+            <li>✓ Reliable brightness</li>
+            <li>✓ Consistent performance</li>
+            <li>✓ Professional appearance</li>
+            <li>✓ Long-lasting LED options</li>
+            <li>✓ Can integrate with home lighting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accessories -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Accessories & Enhancements</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          The finishing touches that make your mailbox installation complete
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Post Caps & Finials</h3>
+          <p class="text-blue-600 font-semibold mb-3">$15 - $50</p>
+          <p class="text-gray-600 text-sm">
+            Decorative caps protect the top of your post from weather while adding architectural detail. Available in various styles from simple to ornate.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Decorative Brackets</h3>
+          <p class="text-blue-600 font-semibold mb-3">$20 - $40</p>
+          <p class="text-gray-600 text-sm">
+            Ornamental mounting brackets add visual interest and support heavier mailboxes. Choose from traditional scrollwork to modern geometric designs.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Custom Painting</h3>
+          <p class="text-blue-600 font-semibold mb-3">$50 - $100</p>
+          <p class="text-gray-600 text-sm">
+            Match your mailbox and post to your home's trim colors or create a custom look. Professional painting ensures a lasting finish.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Newspaper Holder</h3>
+          <p class="text-blue-600 font-semibold mb-3">$25 - $45</p>
+          <p class="text-gray-600 text-sm">
+            Integrated newspaper tubes keep publications dry and secure. Can be mounted on the post or attached to the mailbox.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Reflective Numbers</h3>
+          <p class="text-blue-600 font-semibold mb-3">$10 - $25</p>
+          <p class="text-gray-600 text-sm">
+            Reflective address numbers on your mailbox improve nighttime visibility for emergency services and delivery drivers.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-2">Locking Mechanisms</h3>
+          <p class="text-blue-600 font-semibold mb-3">$30 - $75</p>
+          <p class="text-gray-600 text-sm">
+            Add security with locking mailboxes or retrofit locks. Protect against mail theft while maintaining convenient access.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom Packages -->
+  <section class="py-16 bg-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Create Your Custom Package</h2>
+        <p class="text-xl text-blue-100 mb-8">
+          Combine services for a complete curb appeal transformation
+        </p>
+      </div>
+      
+      <div class="bg-white text-gray-900 rounded-lg p-8">
+        <h3 class="text-2xl font-bold mb-4">Bundle & Save</h3>
+        <p class="text-gray-600 mb-6">
+          When you combine multiple services, we offer package discounts of 10-15%. Popular combinations include:
+        </p>
+        <ul class="space-y-3 text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span>Premium mailbox installation + house numbers + post lighting</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span>Standard installation + decorative post + custom painting</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <span>Multi-mailbox installation + coordinated house numbers for all units</span>
+          </li>
+        </ul>
+        <div class="mt-8 text-center">
+          <a href="/contact" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+            Request Custom Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
