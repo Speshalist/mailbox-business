@@ -1,4 +1,6 @@
 ---
+import { base } from '../config';
+
 const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '/services' },
@@ -7,13 +9,19 @@ const navItems = [
   { name: 'Custom Options', href: '/custom-options' },
   { name: 'Contact', href: '/contact' },
 ];
+
+// Helper function to add base path
+const withBase = (path: string) => {
+  const baseUrl = import.meta.env.BASE_URL || '/';
+  return baseUrl + path.replace(/^\//, '');
+};
 ---
 
 <nav class="bg-white shadow-md sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-16">
       <div class="flex-shrink-0">
-        <a href="/" class="text-2xl font-bold text-blue-600">
+        <a href={withBase('/')} class="text-2xl font-bold text-blue-600">
           SoMD Mailbox Services
         </a>
       </div>
@@ -23,7 +31,7 @@ const navItems = [
         <div class="ml-10 flex items-baseline space-x-4">
           {navItems.map((item) => (
             <a
-              href={item.href}
+              href={withBase(item.href)}
               class="text-gray-700 hover:bg-blue-50 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
             >
               {item.name}
@@ -56,7 +64,7 @@ const navItems = [
     <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
       {navItems.map((item) => (
         <a
-          href={item.href}
+          href={withBase(item.href)}
           class="text-gray-700 hover:bg-blue-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
         >
           {item.name}
